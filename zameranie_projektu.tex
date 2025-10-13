@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{article}
+
+% =============================
+% Balíčky pre správne fungovanie dokumentu
+% =============================
+\usepackage[slovak,english]{babel}   % Jazykové prostredie
+\usepackage[utf8]{inputenc}          % Kódovanie znakov
+\usepackage[T1]{fontenc}             % Správne delenie slov
+\usepackage[a4paper,margin=2.5cm]{geometry} % Okraje dokumentu
+\usepackage{setspace}                % Riadkovanie
+\usepackage{titlesec}                % Formátovanie sekcií
+\usepackage{enumitem}                % Lepšie zoznamy
+\usepackage{hyperref}                % Klikateľné odkazy
+\usepackage{lmodern}                 % Moderný font
+\usepackage{graphicx}                % Obrázky
+\usepackage{booktabs}                % Tabuľky
+\usepackage{xcolor}                  % Farby
+
+% =============================
+% Vzhľad sekcií a dokumentu
+% =============================
+\setstretch{1.2}
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\setlist[itemize]{leftmargin=1.5em}
+
+% =============================
+% Informácie o dokumente
+% =============================
+\begin{document}
+
+\selectlanguage{slovak}
+
+\begin{center}
+    {\LARGE \textbf{Zameranie projektu}} \\[0.5em]
+    {\large VV-A1-03, VV-A1-04, VV-A1-09} \\[1.5em]
+    {\large Márton Nagy, Tobiáš Nosáľ, Andrii Novitskyi} \\[0.5em]
+    {\large 12. október 2025} \\[2em]
+\end{center}
+
+% =============================
+% Sekcia 03 – Názov projektu
+% =============================
+\section*{03. Názov projektu / Project title}
+
+\textbf{Slovensky:} Dopravné problémové miesta v Bratislave: príčiny a riešenia
+
+\noindent\textbf{English:} Traffic Problem Areas in Bratislava: Causes and Solutions
+
+\vspace{1em}
+
+% =============================
+% Sekcia 04 – Akronym projektu
+% =============================
+\section*{04. Akronym projektu / Acronym of the project}
+
+\textbf{B.R.A.T.S}
+
+\noindent B – Bratislava \\
+\noindent R – Road \\
+\noindent A – Assessment \\
+\noindent T – Traffic \\
+\noindent S – Solutions
+
+\vspace{1em}
+
+% =============================
+% Sekcia 09 – Anotácia
+% =============================
+\section*{09. Anotácia / Annotation}
+
+\textbf{Slovensky:}
+
+Cieľom projektu je analyzovať dopravnú situáciu v Bratislave s dôrazom na časovo a priestorovo problémové úseky cestnej siete. Projekt využije dostupné dopravné dáta (napr. GPS záznamy, dopravné senzory, údaje o verejnej doprave a dopravných zápchach) na identifikáciu kritických miest počas rôznych dní a časov v týždni. Pomocou štatistických a strojovo-učiacich metód sa určia hlavné faktory spôsobujúce preťaženie dopravy, ako sú kapacitné limity, zmeny dopravného značenia, údržbové práce či vplyv prímestskej dopravy. Na základe výsledkov analýzy budú navrhnuté opatrenia na zlepšenie plynulosti dopravy – od optimalizácie svetelnej signalizácie a dopravného riadenia až po návrhy dlhodobých infraštruktúrnych riešení. Výsledkom projektu bude komplexný model dopravného správania v Bratislave a odporúčania pre mestskú samosprávu na efektívne riadenie mobility a zníženie dopravných zápch.
+
+\vspace{1em}
+
+\noindent\textbf{English:}
+
+The project aims to analyze traffic conditions in Bratislava with a focus on spatially and temporally problematic road sections. Using available traffic data (such as GPS traces, traffic sensors, public transport data, and congestion statistics), the project will identify critical areas during different days and times of the week. Statistical and machine learning methods will be applied to determine the main factors causing congestion, such as capacity limits, roadworks, traffic control settings, and suburban inflow. Based on the analysis results, the project will propose solutions to improve traffic flow — including traffic light optimization, better traffic management, and long-term infrastructure recommendations. The outcome will be a comprehensive traffic behavior model for Bratislava and policy recommendations for sustainable mobility and congestion reduction.
+
+% =============================
+% Koniec dokumentu
+% =============================
+\end{document}
