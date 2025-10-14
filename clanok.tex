@@ -2,6 +2,7 @@
 
 \documentclass[10pt,twocolumn,twoside,slovak,a4paper]{article}
 
+\usepackage{amsmath, amssymb}
 \usepackage{wrapfig}
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -144,5 +145,20 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 \paragraph{Overleaf}
 niejaky text aky dopisal v overleafe.
 
+\[
+\begin{bmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & -2 & 2
+\end{bmatrix}
+\]
+
+\begin{multline}
+a_n = 1 + 2 + 3 + \dots + n + \frac{n(n+1)}{2} + \sum_{k=1}^{n} k^2 
++ \prod_{j=1}^{n} \left(1+\frac{1}{j}\right) + \sum_{i=1}^{n} \frac{i^3}{i+1} \\
++ \sum_{m=1}^{n} \frac{m!}{2^m} + \sum_{p=1}^{n} \frac{(-1)^p}{p^2} + \cdots
+\end{multline}
 
 \end{document}
